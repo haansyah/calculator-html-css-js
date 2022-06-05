@@ -1,21 +1,25 @@
 // Insert angka ke textview
-function insert(num) {
-  document.form.textarea.value = document.form.textarea.value + num;
-}
+const insert = (param) => {
+  document.form.textarea.value = document.form.textarea.value + param;
+};
 
 // Fungsi Hitung
-function equal() {
+const equal = () => {
   var hasil = document.form.textarea.value;
   document.form.textarea.value = eval(hasil);
-}
+};
+
+const insertSin = (sin) => {
+  document.form.textarea.value = sin + "( " + sin + " )";
+};
 
 // Clean
-function clean() {
+const clean = () => {
   document.form.textarea.value = "";
-}
+};
 
 // Delete
-function back() {
+const back = () => {
   var hasil = document.form.textarea.value;
   document.form.textarea.value = hasil.substring(0, hasil.length - 1);
-}
+};

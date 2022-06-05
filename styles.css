@@ -12,6 +12,7 @@ body {
   height: 637px;
   background-position: center center;
   animation: shrink 15s infinite alternate, change 15s infinite ease-in-out;
+  background-repeat: no-repeat;
 }
 
 @keyframes change {

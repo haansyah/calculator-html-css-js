@@ -153,6 +153,7 @@ body {
   border-radius: 10px;
   text-align: left;
   background-color: transparent;
+  pointer-events: none;
 }
 
 .textarea:focus-visible {
